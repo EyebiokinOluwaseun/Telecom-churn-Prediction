@@ -112,6 +112,5 @@ Satisfaction: There is a clear threshold; customers with a satisfaction rating <
   
   Scikit-Learn (Modeling, Preprocessing)
   
-  Imbalanced-Learn (SMOTE)
   
   Matplotlib / Seaborn (Visualization)
