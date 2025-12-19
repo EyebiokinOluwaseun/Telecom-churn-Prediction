@@ -3,7 +3,7 @@ Project Status: Completed
 
 Domain: Telecommunications / Data Science
 
-Techniques: Machine Learning (Gradient Boosting), SMOTE, Exploratory Data Analysis
+Techniques: Machine Learning (Gradient Boosting), Exploratory Data Analysis
 
 # 1. Introduction
 In the highly competitive telecommunications sector, acquiring a new customer is significantly more expensive than retaining an existing one. For telecom providers in Nigeria (like MTN), high churn rates directly impact revenue and market share.
@@ -17,7 +17,7 @@ Objectives:
 
 Analyze: Perform Exploratory Data Analysis (EDA) to identify key patterns and drivers of churn (e.g., Network Quality, Price).
 
-Process: Clean and engineer features from raw customer data, addressing class imbalance using SMOTE.
+Process: Clean and engineer features from raw customer data, addressing class imbalance.
 
 Build: Train and optimize Machine Learning models (Gradient Boosting).
 
@@ -72,7 +72,7 @@ Encoding: Applied One-Hot Encoding to categorical variables (State, Device, Plan
 ## 5.2 Addressing Imbalance
 The dataset was heavily imbalanced (~71% Retained vs. ~29% Churned).
 
-Technique Used: SMOTE (Synthetic Minority Over-sampling Technique) and Upsampling.
+Technique Used: SMOTE (Synthetic Minority Over-sampling Technique).
 
 Result: Balanced the training data to ensure the model learned to recognize churners effectively, improving Recall from <10% to >50%.
 
